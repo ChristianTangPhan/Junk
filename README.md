@@ -1,2 +1,2 @@
 # Junk
-Random Stuff
+Dudwen's repository for random junk code
