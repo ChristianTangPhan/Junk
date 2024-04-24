@@ -12,17 +12,14 @@ which game
 Declaration
 --------------------------------------------------------------------
 """
-#Initialize Minimum and Maximum
-MIN = 2
-MAX = 5
 
-#Initializes players to start out of party
+#Initializes players
 cavey, deeswa, thien, dudwen, deft = False, False, False, False, False
-
-#Attatching position to players
 ID = ["cavey", "deeswa", "thien", "dudwen", "deft"]
 
 #Other Initializations
+MIN = 2
+MAX = 5
 lobbySize = 0
 online = 0
 quit = False
@@ -46,6 +43,7 @@ twoPlayer   = [9, 33]
 threePlayer = [20, 22, 36]
 fourPlayer  = [3, 4, 5, 6, 8, 12, 14, 18, 41, 43, 45]
 fivePlayer  = [23, 24]
+dudwenOnly  = [41]
 
 """
 --------------------------------------------------------------------
@@ -90,43 +88,43 @@ while quit == False and online < lobbySize:
     player = (input("Who is playing: "))
     
     try:
-        player = int(player)
+        player = str(player)
     except ValueError:
         pass
 
-    if player == 1:
+    if player == "1" or player.lower() == "cavey":
         if cavey == True:
             print("Cavey is already added\n")
             online -= 1
         else:
             cavey = True
             print("Cavey is added\n")
-    elif player == 2:
-        if deeswa == True:
+    elif player == "2" or player.lower() == "deeswa":
+        if deeswa == player == "deeswa":
             print("Deeswa is already added\n")
             online -= 1
         else:
             deeswa = True
             print("Deeswa is added\n")
-    elif player == 3:
+    elif player == "3" or player.lower() == "thien":
         if thien == True:
             print("thien is already added\n")
             online -= 1
         else:
             thien = True
             print("Thien is added\n")
-    elif player == 4:
+    elif player == "4" or player.lower() == "dudwen":
         if dudwen == True:
             print("Dudwen is already added\n")
             online -= 1
         else:
             dudwen = True
             print("Dudwen is added\n")
-    elif player == 5:
+    elif player == "5" or player.lower() == "deft":
         if deft == True:
             print("Deft is already added\n")
             online -= 1
-    elif player == 6:
+    elif player == "6" or player.lower() == "quit":
         quit == True
     else:
         print("not an option\n")
@@ -257,6 +255,12 @@ if deft == False:
     for reset in range(len(database)):
         database[reset][ID.index("deft")] = yes
 
+#Needs Dudwen to play
+if dudwen == False:
+    for players in range(len(ID)):
+        for remove in range(len(dudwenOnly)):
+            database[dudwenOnly[remove]-1][players] = nah
+
 #Removes 2 player games
 if online > 2:
     for players in range(len(ID)):
@@ -290,5 +294,9 @@ Display
 #Prints all possible games list
 print("List of possible games")
 for games in range(len(database)):
-    if database[games][ID.index("cavey")] == database[games][ID.index("deeswa")] == database[games][ID.index("thien")] == database[games][ID.index("dudwen")] == database[games][ID.index("deft")] == yes:
+    if (database[games][ID.index("cavey")] == 
+        database[games][ID.index("deeswa")] == 
+        database[games][ID.index("thien")] == 
+        database[games][ID.index("dudwen")] == 
+        database[games][ID.index("deft")] == yes):
         print(gameList[games])
