@@ -1,0 +1,78 @@
+goto continue and break on test
+
+everything covered all semester long (not includeing malloc and sup 3)
+prog 1 and 2
+
+PROG 3
+do while loop in get quantity function that accepts any numbers between 2 and 100 (accepts 0 and returns) everything else rejects
+
+dynamically allocate room for 10 floats
+
+no indexes (no where in this program will [] appear (pointers only))
+
+negative values automaticall converted to positive 
+
+database of experimental data (dont talk abt array of floats)
+
+negative to positive (x = x * -1) WRONG -x (unary minus) RIGHT
+
+EVERYTHING IN THE PROGRAM IS FLOAT EXCEPT QUANTITY (number of floats) - refer to as database of experimental scientific data
+
+printed in decending order, selection sort, note any dups
+
+THis program processes experimental scientific data converting negatives to positives, sorting the data into decending order and printing the data... and its sum in... 
+
+7 symbolic constants
+   document quit as program exit value
+   DATA_ALLOC_ERR 1
+
+8 functions
+   print heading
+   print instructions
+   get quantity
+   get data
+   sort data
+   print data
+   sum data
+   print total
+
+main needs 2 things
+   pointer to data
+   quantity
+6 tasks
+   1. pring heading 
+   2. while (___,___) not getting menu choice but quantity
+      3. /* attempt to                   */ 
+         if (malloc...)
+         {
+            
+            exit(DATA_ALLOC_ERR) DONT SAY ANYTHING ABT MENU_CHOICE_ERR
+         }
+      4. get data (___,___)
+         sort data (___,___)
+         sum data (___,___)
+         print total (sum_data(___)) function call as parameter (return values replace the function call)
+      5. free(p_data)
+   6. say goodbye and terminate
+
+get_quantity do while 
+get_data (enter data value) 
+
+database questions SS28
+
+p_d_s -> database <-p_d (moves thorugh array) pointer arithmitic NO COUNTER (extra variable)
+   type error? type cast result of subtraction with int
+   print (the data is descending order...)
+      duplicates print value then check to see if == then print (duplicate) 
+sum data
+
+not in decending order = swap
+
+sort needs n^2 number of loops SELECTION SORT temp_data
+   for p_outer
+        for p_inner
+            if increment p_inner compare to p_outter
+               SWAP
+               pretty much find biggest number and put at top then next and loop
+
+sort function has 2 pointers abrrv ci?

@@ -1,0 +1,63 @@
+C:\Users\mstemen\Downloads\nsinfo6\nsinfo6>java nsinfo www.google.com
+www.google.com
+pG☺  ☺      ♥www♠google♥com  ÿ ☺
+70 47 81 80 00 01 00 0B  00 00 00 00 03 77 77 77  pG??.☺......♥www
+06 67 6F 6F 67 6C 65 03  63 6F 6D 00 00 FF 00 01  ♠google♥com..ÿ.☺
+C0 0C 00 01 00 01 00 00  00 1E 00 04 6C B1 7A 93  ?..☺.☺...▲.♦l±z?
+C0 0C 00 01 00 01 00 00  00 1E 00 04 6C B1 7A 68  ?..☺.☺...▲.♦l±zh
+C0 0C 00 01 00 01 00 00  00 1E 00 04 6C B1 7A 67  ?..☺.☺...▲.♦l±zg
+C0 0C 00 01 00 01 00 00  00 1E 00 04 6C B1 7A 6A  ?..☺.☺...▲.♦l±zj
+C0 0C 00 01 00 01 00 00  00 1E 00 04 6C B1 7A 69  ?..☺.☺...▲.♦l±zi
+C0 0C 00 01 00 01 00 00  00 1E 00 04 6C B1 7A 63  ?..☺.☺...▲.♦l±zc
+C0 0C 00 1C 00 01 00 00  01 2C 00 10 26 07 F8 B0  ?..∟.☺..☺,.►&.?°
+40 02 0C 02 00 00 00 00  00 00 00 6A C0 0C 00 1C  @☻.☻.......j?..∟
+00 01 00 00 01 2C 00 10  26 07 F8 B0 40 02 0C 02  .☺..☺,.►&.?°@☻.☻
+00 00 00 00 00 00 00 69  C0 0C 00 1C 00 01 00 00  .......i?..∟.☺..
+01 2C 00 10 26 07 F8 B0  40 02 0C 02 00 00 00 00  ☺,.►&.?°@☻.☻....
+00 00 00 93 C0 0C 00 1C  00 01 00 00 01 2C 00 10  ...??..∟.☺..☺,.►
+26 07 F8 B0 40 02 0C 02  00 00 00 00 00 00 00 68  &.?°@☻.☻.......h
+C0 0C 00 41 00 01 00 00  53 77 00 0D 00 01 00 00  ?..A.☺..Sw...☺..
+01 00 06 02 68 32 02 68  33                       ☺.♠☻h2☻h3
+
+7047
+ffff8180
+1
+11
+0
+0
+
+; Question(s)
+  QD:www.google.com. * IN
+; Answer
+  AN:www.google.com. A IN TTL:30 RLEN:4
+  108.177.122.147
+; Answer
+  AN:www.google.com. A IN TTL:30 RLEN:4
+  108.177.122.104
+; Answer
+  AN:www.google.com. A IN TTL:30 RLEN:4
+  108.177.122.103
+; Answer
+  AN:www.google.com. A IN TTL:30 RLEN:4
+  108.177.122.106
+; Answer
+  AN:www.google.com. A IN TTL:30 RLEN:4
+  108.177.122.105
+; Answer
+  AN:www.google.com. A IN TTL:30 RLEN:4
+  108.177.122.99
+; Answer
+  AN:www.google.com. AAAA IN TTL:300 RLEN:16
+  2607:F8B0:4002:0C02:0000:0000:0000:006A
+; Answer
+  AN:www.google.com. AAAA IN TTL:300 RLEN:16
+  2607:F8B0:4002:0C02:0000:0000:0000:0069
+; Answer
+  AN:www.google.com. AAAA IN TTL:300 RLEN:16
+  2607:F8B0:4002:0C02:0000:0000:0000:0093
+; Answer
+  AN:www.google.com. AAAA IN TTL:300 RLEN:16
+  2607:F8B0:4002:0C02:0000:0000:0000:0068
+; Answer
+  AN:www.google.com. ## IN TTL:21367 RLEN:13
+  [not handling 13 bytes.]

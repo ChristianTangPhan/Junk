@@ -1,0 +1,66 @@
+C5245 object-oriented Programing and Design - Progran &
+
+This program asks for information about your conpany and
+about each employee. Tt then calculates the bonus amount.
+Oued each employee based on the number of service years.
+
+Enter the nane of your company here (no spaces): ganestop
+Enter your number of employees (1 or more): 5
+
+Enter the year in which the bonuses are given (VYYY): 2025
+Give the yearly bonus anount per employee (in dollars): 5
+
+Company nane: ganestop
+Year of the bonuses: 2025
+Number of employees: 5
+
+Bonus per year: ss
+
+Enter the nunber of service years of employee #1.
+enter © (zero) if this employee does not exist: 1
+
+Enter the nunber of service years of employee #2.
+Enter (zero) if this employee does not exist: 3
+
+Enter the nunber of service years of employee #3.
+Enter (zero) if this employee does not exist: 5
+
+"enter the nunber of service years of employee #4.
+Enter o (zero) if this employee does not exist: 7
+
+Enter the nunber of service years of employee #5.
+Enter (zero) if this employee does not exist: 5
+
+Here is the employee database, IN UNSORTED ORDER:
+
+Employee 1d Service Years Year Hired Bonus Att
+
+1 1 2020 ss
+2 3 2022 s15
+3 H 2020 $25
+a 7 2018 $35
+5 H 2016 sas
+
+Destructor executing
+
+Here 1s the enployee database, SORTED BY YEAR HIRED:
+
+Employee 1d Service Years Year Hired Bonus Att
+
+s B 2016 sas
+a 7 2018 $35
+3 H 2020 $25
+2 3 2022 $15
+1 1 2020 ss
+
+Destructor executing
+
+Destructor executing
+
+Destructor executing
+
+Destructor executing
+
+Destructor executing
+
+Thanks for processing employee bonuses today 3)

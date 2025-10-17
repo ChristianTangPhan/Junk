@@ -1,0 +1,20 @@
+Planning Meeting - October 4, 2025
+
+Started the meeting at 1:00.
+Attendance: Molly Stump, Gerardo Castro, Josh Zheng, Christian Phan, Jonny Keating, and Andy Ortuno
+
+We began by creating a main function to use to test the pipeline. We then started developing the pipeline.
+We developed the pipeline and tested it with main.
+We then walked through what each issue needed to accomplish and assigned people to complete each of these issues. 
+
+Creating / Listing Assignments/Grades- Molly, Jonny - Inputting all the assignments and needed info. Making the link list of the assignments
+Saving Assignment / Loading Assignment - Christian, Gerardo - after inputting the assignment and the application is closed, saving the information to a file. Upload past assignment information when the application is reopened.
+Sorting / Deleting Assignment - Andy, Josh - We thought through the best way to sort the data, which we decided would be through a linked list. Removing an assignment from the applications records.  
+Edit Assignment - We didn't assign a specific person for this task yet, because we wanted to make sure the task assignments were even
+
+We verified the tasks that were assigned and found the best times to meet for the rest of the week.
+
+Team Meeting Time:
+Monday @ 5:00 
+Tuesday @ 5:00
+Thrusday @ 7:00

@@ -1,0 +1,39 @@
+/*
+8 functions
+
+print heading
+do while loop ((p_m(), menu_choice - get.menuchoice()) != quit)
+   get whole numbers (function)
+   switch 1 2 3 4 default (printing is done in main case statements) check SS1
+ SGB&T
+
+print menu (make a selection to 5 - quit)
+
+get menu choice/ menu selection (do while)
+
+get whole numbers (type in any two numbers to second number)
+
+menu choice 1 add numbers (return sum)
+
+menu choice 2 raise first number to power of second (pow(base, exponent)) 
+   meaningful variables names cast int to type double but return float %1.6e (floating point scientific notation)
+
+menu choice 3 range sum function (use menu choice 4)
+
+menu choice 4 swap numbers or order numbers
+   One and two are already in order OR One and two properly order are (SS1)
+
+
+comment outer and inner switch statement
+
+default case
+   printf("\nError %d occurred in function in main().", MENU_CHOICE_ERR)
+   printf("\nAn imposible menu choice error occurred.")
+   printf("\nThe program is aborting.")
+   exit(1)l
+
+ENGLISH CLASS
+   spell occurred correctly
+   i before e except in c except in neighbor, weird
+   a constanant an vowel (remove break for debugging purposes)
+*/
