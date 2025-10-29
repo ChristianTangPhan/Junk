@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <title>Spin Wheel</title>
+</head>
+
+<body>
+  <!-- Selection screen shown first -->
+  <div id="select-screen" style="display: block;">
+    <h1>Select Your players</h1>
+
+  <form id="players-form">
+    <div id="checkbox-container"></div>
+  </form>
+
+
+    <form id="settings-form">
+			<br>
+      <label><input type="checkbox" name="setting" value="update">Willing to update?</label><br>
+			<br>
+    </form>
+
+    <button id="next-button">Next</button>
+  </div>
+
+  <!-- Wheel screen hidden by default -->
+  <div id="wheel-screen" style="display: none;">
+    <button id="spin"></button>
+    <span class="arrow"></span>
+    <div class="wheel"></div>
+    <button id="return-button">Return</button>
+  </div>
+
+  <script src="./main.js"></script>
+</body>
+
+</html>
